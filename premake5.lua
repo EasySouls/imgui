@@ -1,4 +1,4 @@
-project ImGui
+project "ImGui"
     kind "StaticLib"
     language "C++"
     
@@ -15,7 +15,8 @@ project ImGui
         "imstb_rectpack.h",
         "imstb_textedit.h",
         "imstb_truetype.h",
-        "imgui_demo.cpp"
+        "imgui_demo.cpp",
+        "imgui_tables.cpp",
     }
     
     filter "system:windows"
